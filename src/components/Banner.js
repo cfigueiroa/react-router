@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 export default function Banner() {
   return (
@@ -16,12 +17,12 @@ export default function Banner() {
                   Duis sed dapibus leo nec ornare diam sed commodo nibh ante
                   facilisis bibendum.
                 </p>
-                <a
-                  href="#features"
+                <Link
+                  to="/features"
                   className="btn btn-custom btn-lg page-scroll"
                 >
                   Learn More
-                </a>
+                </Link>
               </div>
             </div>
           </div>

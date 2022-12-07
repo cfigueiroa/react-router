@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 import NavHeader from "./NavHeader";
 
 export default function Menu() {
@@ -16,23 +16,23 @@ export default function Menu() {
 
             {/* '/features' deve renderizar FeaturesSection */}
             <li>
-              <a href="/features">Features</a>
+              <Link to="/features">Features</Link>
             </li>
             {/* '/services' deve renderizar ServicesSection */}
             <li>
-              <a href="/services">Services</a>
+              <Link to="/services">Services</Link>
             </li>
             {/* '/portfolio' deve renderizar PortfolioSection */}
             <li>
-              <a href="/portfolio">Gallery</a>
+              <Link to="/portfolio">Gallery</Link>
             </li>
             {/* '/testimonials' deve renderizar TestimonialsSection */}
             <li>
-              <a href="/testimonials">Testimonials</a>
+              <Link to="/testimonials">Testimonials</Link>
             </li>
             {/* '/team' deve renderizar TeamSection */}
             <li>
-              <a href="/team">Team</a>
+              <Link to="/team">Team</Link>
             </li>
           </ul>
         </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function NavHeader() {
   return (
@@ -13,9 +14,9 @@ export default function NavHeader() {
         <span className="icon-bar"></span> <span className="icon-bar"></span>
         <span className="icon-bar"></span>
       </button>
-      <a href="/" className="navbar-brand page-scroll">
+      <Link to="/" className="navbar-brand page-scroll">
         React Landing Page
-      </a>
+      </Link>
     </div>
   );
 }
